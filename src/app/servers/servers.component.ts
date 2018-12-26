@@ -18,6 +18,7 @@ export class ServersComponent implements OnInit {
     }
 
     onReload() {
+      //  this.router.navigate(['servers']);
       // this.router.navigate(['servers'], {relativeTo: this.route}); this will not work now because now it is servers/servers
     }
 }
